@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(61, 58, 58);
+  color: white;
+}
+.nav a {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 20px;
+  width: 200px;
+}
+
+.nav a:hover {
+  opacity: 0.7;
+  background-color: black;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 2);
+}
+
+nav {
+  margin: 30px;
+}
+header {
+  margin: 40px;
+}
+img {
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+img:hover {
+  opacity: 0.7;
+}
+.proje {
+  margin: 20px;
+  font-size: 60px;
+}
+
+li {
+  font-size: 80px;
+  font-family: "Bruno Ace", cursive;
+  font-family: "Carter One", cursive;
+  text-shadow: 2px 15px 2px rgba(125, 226, 201, 0.3);
+  list-style: none;
+}
+ul.after li:nth-child(1):after {
+  content: "👌";
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
+  color: rgb(243, 176, 6);
+}
+ul {
+  margin: 40px;
+}
+footer div a:hover {
+  color: crimson;
+}
+.fa-brands:hover {
+  color: crimson;
+}
+footer a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 60px;
+}
+#username,
+#email {
+  display: inline-block;
+  width: 850px;
+  height: 60px;
+  font-size: 32px;
+}
+#message {
+  font-size: 32px;
+  border: 2px solid rgb(243, 243, 11);
+}
+
+input {
+  border: 2px solid rgb(243, 243, 11);
+}
+
+input:focus {
+  background-color: chartreuse;
+  color: red;
+  border: 4px dashed rgb(223, 36, 36);
+  outline: none;
+}
+#message:focus {
+  background-color: chartreuse;
+  color: red;
+  border: 4px dashed rgb(223, 36, 36);
+  outline: none;
+}
+#send {
+  background-color: fuchsia;
+  display: inline-block;
+  width: 850px;
+  height: 60px;
+  font-size: 32px;
+  border: none;
+}
+#send:hover {
+  color: chartreuse;
+  content: "💸🎈";
+}
+h3 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+#top {
+  display: inline-block;
+  text-align: center;
+  background-color: fuchsia;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+#başlangıc {
+  text-align: right;
+  margin-bottom: 50px;
+}
